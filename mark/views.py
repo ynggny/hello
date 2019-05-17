@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.http.response import HttpResponse
 from django.template import loader
-from throughly.tango import fusion
+from wow.tango import fusion
 import csv
 from django.shortcuts import render
 from .models import Stu
